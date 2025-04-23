@@ -3,7 +3,7 @@ library(e1071)
 library(lmtest)                    
 
 # Configurar o diretório de trabalho
-setwd("C:/bovdb/docs/rstudio/data")
+setwd("C:/rstudio/data")
 
 # Ler os dados
 dados <- read.csv("price_data_107.csv", header = TRUE, sep = ",", dec = ".")
